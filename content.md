@@ -23,7 +23,7 @@ This guide will walk you through the following topics:
 To make the process of opening a workspace with `https://gitpod.io/#` easier, [Gitpod has a browser extension](https://www.gitpod.io/docs/20_browser_extension/) that you can install if you want to.
 </aside>
 
-# Loading a Grades project with Gitpod
+## Loading a Grades project with Gitpod
 
 To create a Gitpod workspace based on a repo, in the address bar of your browser enter `https://gitpod.io/#` and then the URL of the repo. For example,
 
@@ -113,4 +113,3 @@ Note the `#snapshot` fragment of the URL. That means you have the right one.
 When someone clicks on the snapshot URL, they will get their own private copy of your workspace in the state that it was in when you took the snapshot.
 
 Any changes they make to their copy will not affect your workspace. Similarly, any changes you make to your workspace won't affect their snapshot. So you can keep trying to resolve the problem on your own, or work on the next task, without interfering with their snapshot.
-```
