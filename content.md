@@ -36,30 +36,28 @@ This will take a minute or two to setup the workspace, but reopening the workspa
 
 ## Getting Started With Gitpod
 
-1. Sign up for a [Gitpod.io](https://www.gitpod.io) account. It will ask you to sign in using your GitHub account.
+Sign up for a [Gitpod.io](https://www.gitpod.io) account. It will ask you to sign in using your GitHub account.
 
-1. Visit the Gitpod dashboard (Workspaces), click your icon in the top-right corner, and select "User Settings":
+Before we can push our code from our Gitpod workspace to our GitHub account (for eternal safekeeping), we need to give Gitpod permission to manage our repositories and to interact with our organization.
+
+Visit the Gitpod dashboard (Workspaces), click your icon in the top-right corner, and select "User Settings":
 
  ![](/assets/user-setting.png)
- 
  {: .bleed-full }
 
-1. Click "Git Providers" in the left sidebar, click the "..." next to "GitHub",  and select "Edit Permissions":
+Click "Git Providers" in the left sidebar, click the "..." next to "GitHub",  and select "Edit Permissions":
 
  ![](/assets/git-providers.png)
-
  {: .bleed-full }
 
-1. Make sure that **user:email**, **read:user**, **public_repo**, **repo** and **workflow** are checked, and then "Update Permissions" if necessary:
+Make sure that **user:email**, **read:user**, **public_repo**, **repo** and **workflow** are checked, and then "Update Permissions" if necessary:
 
  ![](/assets/edit-permissions.png)
-
  {: .bleed-full }
 
-1. Finally, You can now "Commit" (Remember to add a commit message before you click on Commit) and "Sync" with GitHub:
+Finally, You can now "Commit" (Remember to add a commit message before you click on Commit) and "Sync" with GitHub:
 
  ![](/assets/git-commit.png)
-
  {: .bleed-full }
 		
 Now, you should get into the habit of pushing your code to GitHub very often. If you do, then you're certain never to lose your work, among many other benefits of using GitHub to store your code.
