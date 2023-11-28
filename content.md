@@ -42,23 +42,23 @@ Before we can push our code from our Gitpod workspace to our GitHub account (for
 
 Visit the Gitpod dashboard (Workspaces), click your icon in the top-right corner, and select "User Settings":
 
- ![](/assets/user-setting.png)
- {: .bleed-full }
+![](/assets/user-setting.png)
+{: .bleed-full }
 
 Click "Git Providers" in the left sidebar, click the "..." next to "GitHub",  and select "Edit Permissions":
 
- ![](/assets/git-providers.png)
- {: .bleed-full }
+![](/assets/git-providers.png)
+{: .bleed-full }
 
 Make sure that **user:email**, **read:user**, **public_repo**, **repo** and **workflow** are checked, and then "Update Permissions" if necessary:
 
- ![](/assets/edit-permissions.png)
- {: .bleed-full }
+![](/assets/edit-permissions.png)
+{: .bleed-full }
 
 Finally, You can now "Commit" (Remember to add a commit message before you click on Commit) and "Sync" with GitHub:
 
- ![](/assets/git-commit.png)
- {: .bleed-full }
+![](/assets/git-commit.png)
+{: .bleed-full }
 		
 Now, you should get into the habit of pushing your code to GitHub very often. If you do, then you're certain never to lose your work, among many other benefits of using GitHub to store your code.
 
