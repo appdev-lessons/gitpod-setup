@@ -11,20 +11,20 @@ This guide will walk you through the following topics:
 The following is a quick-start for opening a project on Gitpod. **Before you do this,** follow the steps in the [Getting Started With Gitpod](#getting-started-with-gitpod){: target="_self" } section below. Those steps need to be done the very first time you setup Gitpod.
 </div>
 
-1. We will create a **workspace** for each project that we work on. Each workspace is based on a GitHub **repository** (i.e., a folder with some code in it; a.k.a., **repo**).
+We will create a **workspace** for each project that we work on. Each workspace is based on a GitHub **repository** (i.e., a folder with some code in it; a.k.a., **repo**).
 
-1. To create a Gitpod workspace based on a repo, in the address bar of your browser enter `https://gitpod.io/#` and then the URL of the repo. For example,
+To create a Gitpod workspace based on a repo, in the address bar of your browser enter `https://gitpod.io/#` and then the URL of the repo. For example,
 
-    ```
-    https://gitpod.io/#https://github.com/<your-username>/<project-name>
-    ```
-    {: .bleed-full }
-
-1. This will take you to a "New Workspace" screen on Gitpod. You can accept the default settings and hit "Continue". 
+```
+https://gitpod.io/#https://github.com/<your-username>/<project-name>
+```
+{: .bleed-full }
 
 <aside markdown="1">
 To make the process of opening a workspace with `https://gitpod.io/#` easier, [Gitpod has a browser extension](https://www.gitpod.io/docs/20_browser_extension/) that you can install if you want to.
 </aside>
+
+This will take you to a "New Workspace" screen on Gitpod. You can accept the default settings and hit "Continue". 
 
 <!-- ![](/assets/launch-gitpod.png) -->
 ![](/assets/launch-gitpod.png)
