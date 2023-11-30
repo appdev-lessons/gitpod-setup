@@ -11,18 +11,18 @@ This guide will walk you through the following topics:
 The following is a quick-start for opening a project on Gitpod. **Before you do this,** follow the steps in the [Getting Started With Gitpod](#getting-started-with-gitpod){: target="_self" } section below. Those steps need to be done the very first time you setup Gitpod.
 </div>
 
-   1. We will create a **workspace** for each project that we work on. Each workspace is based on a GitHub **repository** (i.e., a folder with some code in it; a.k.a., **repo**).
+1. We will create a **workspace** for each project that we work on. Each workspace is based on a GitHub **repository** (i.e., a folder with some code in it; a.k.a., **repo**).
 
-      - For example, here is a repository: [github.com/appdev-projects/ruby-template](https://github.com/appdev-projects/ruby-template)
+    For example, here is a repository: [github.com/appdev-projects/ruby-template](https://github.com/appdev-projects/ruby-template)
 
-   1. To create a Gitpod workspace based on a repo, in the address bar of your browser enter `https://gitpod.io/#` and then the URL of the repo. For example,
+1. To create a Gitpod workspace based on a repo, in the address bar of your browser enter `https://gitpod.io/#` and then the URL of the repo. For example,
 
-        ```
-        https://gitpod.io/#https://github.com/<your-username>/<project-name>
-        ```
-        {: .bleed-full }
+    ```
+    https://gitpod.io/#https://github.com/<your-username>/<project-name>
+    ```
+    {: .bleed-full }
 
-   1. This will take you to a "New Workspace" screen on Gitpod. You can accept the default settings and hit "Continue". 
+1. This will take you to a "New Workspace" screen on Gitpod. You can accept the default settings and hit "Continue". 
 
 <aside markdown="1">
 To make the process of opening a workspace with `https://gitpod.io/#` easier, [Gitpod has a browser extension](https://www.gitpod.io/docs/20_browser_extension/) that you can install if you want to.
@@ -34,13 +34,38 @@ To make the process of opening a workspace with `https://gitpod.io/#` easier, [G
 
 This will take a minute or two to setup the workspace, but reopening the workspace will be much faster.
 
+<div class="bg-blue-100 py-1 px-5">
+
+You can manage your workspaces on the Gitpod dashboard: 
+
+[gitpod.io/workspaces](https://gitpod.io/workspaces)
+
+There, you can find options to stop and re-open workspaces and more, using the `...` menu next to each workspace, just like you did with your Codespaces at [github.com/codespaces](https://github.com/codespaces)
+</div>
+
 ## Getting Started With Gitpod
 
-Sign up for a [Gitpod.io](https://www.gitpod.io) account. It will ask you to sign in using your GitHub account.
+**Follow these one-time setup instructions. Complete _every_ step in this section!**
 
-Before we can push our code from our Gitpod workspace to our GitHub account (for eternal safekeeping), we need to give Gitpod permission to manage our repositories and to interact with our organization.
+Visit [gitpod.io/login](https://gitpod.io/login) and select "Continue with GitHub" to login with your GitHub credentials to create a new Gitpod account.
 
-Visit the Gitpod dashboard (Workspaces), click your icon in the top-right corner, and select "User Settings":
+![](/assets/gitpod-first-login.png)
+{: .bleed-full }
+
+After you login, click the "Authorize gitpod-io" button:
+
+![](/assets/gitpod-first-login-authorize.png)
+
+You will be asked to connect your Linkedin account to receive 50 free hours of usage per month. If you do not connect your Linkedin account, you will only receive 10 hours of free usage per month. Likely 10 hours per month is insufficient for this course, so we strongly recommend connecting your Linkedin account. (If you have one; if not, now is a great time to quickly make one, you can always add to it later.)
+
+![](/assets/gitpod-first-login-linkedin.png)
+{: .bleed-full }
+
+Finish setting up your account by answering a few analytics questions from Gitpod, after that you should land on your account's [gitpod.io/workspaces](https://gitpod.io/workspaces) page, where you can manage your active workspaces!
+
+**Before we can push our code from our Gitpod workspace to our GitHub account (for eternal safekeeping), we need to give Gitpod permission to manage our repositories and to interact with our profile.**
+
+Visit your Gitpod workspaces dashboard, click your icon in the top-right corner, and select "User Settings":
 
 ![](/assets/user-setting.png)
 {: .bleed-full }
@@ -60,7 +85,7 @@ Finally, You can now "Commit" (Remember to add a commit message before you click
 ![](/assets/git-commit.png)
 {: .bleed-full }
 		
-Now, you should get into the habit of pushing your code to GitHub very often. If you do, then you're certain never to lose your work, among many other benefits of using GitHub to store your code.
+Now, you should get into the habit of pushing your code to GitHub very often. If you do, then you're certain never to lose your work, among many other benefits of using GitHub to store your code. **Gitpod will delete your workspace after a period of inactivity (14 days). You will lose all of your work if you do not make git commits and push the code to GitHub!!!**
 
 ## Sharing a Gitpod snapshot
 
