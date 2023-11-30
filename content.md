@@ -13,14 +13,12 @@ The following is a quick-start for opening a project on Gitpod. **Before you do 
 
 1. We will create a **workspace** for each project that we work on. Each workspace is based on a GitHub **repository** (i.e., a folder with some code in it; a.k.a., **repo**).
 
-    For example, here is a repository: [github.com/appdev-projects/ruby-template](https://github.com/appdev-projects/ruby-template)
-
 1. To create a Gitpod workspace based on a repo, in the address bar of your browser enter `https://gitpod.io/#` and then the URL of the repo. For example,
 
-    ```
-    https://gitpod.io/#https://github.com/<your-username>/<project-name>
-    ```
-    {: .bleed-full }
+  ```
+  https://gitpod.io/#https://github.com/<your-username>/<project-name>
+  ```
+  {: .bleed-full }
 
 1. This will take you to a "New Workspace" screen on Gitpod. You can accept the default settings and hit "Continue". 
 
